@@ -8,7 +8,7 @@ const logo = logoGL;
 const Header = ({ menus }, logo) => (
   <section className="header_wrapper">
     <header>
-      <span className="logo">{logoGL}</span>
+      <img src={logoGL} style={{ height: 75, width: 100 }} alt="My Logo" />
       {menus.map(({ items, title }) => (
         <NavBar location="header" items={items} />
       ))}
