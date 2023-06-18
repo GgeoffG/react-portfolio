@@ -2,6 +2,7 @@ import React from "react";
 import { func, string, arrayOf, shape } from "prop-types";
 import NavBar from "../../molecules/navBar/navBar";
 import "./footer.css";
+import github from "../../../../Assets/github-mark.png";
 
 const Footer = ({ menus }) => (
   <section className="footer_wrapper">
@@ -15,7 +16,13 @@ const Footer = ({ menus }) => (
       <nav className="copyright">
         <p>
           Copyright &copy; Geoffrey Langeberg {new Date().getFullYear()}{" "}
-          <a href="https://github.com/GgeoffG/">GitHub</a>
+          <a href="https://github.com/GgeoffG/">
+            <img
+              src={github}
+              alt="github mark"
+              style={{ height: 25, width: 25 }}
+            ></img>
+          </a>
         </p>
       </nav>
     </footer>
