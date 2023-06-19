@@ -1,16 +1,17 @@
 import React from "react";
-import { withKnobs, select, array } from "@storybook/addon-knobs";
+import { withKnobs, select, array, text } from "@storybook/addon-knobs";
 import Banner from "./banner";
 import knobData from "./banner.knobs.json";
 
-const { image, main, link, alt } = knobData;
+const { image, main, link, name } = knobData;
 export const baseBanner = () => {
   return (
     <Banner
       image={image.default}
-      main={main.default}
+      main={select(main.label, main.options, main.default, main.group)}
       link={link.default}
-      alt={alt.default}
+      name={text(name.label, name.default, name.group)}
+      // alt={alt.default}
     />
   );
 };

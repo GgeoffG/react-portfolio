@@ -2,7 +2,7 @@
   "image": {
     "label": "Image",
     "default": "https://github.com/andrewmuhn/cooks-companion/blob/main/public/images/spaghetti-1932466_960_720.jpg?raw=true",
-    "group": "variation"
+    "group": "display"
   },
 
   "main": {
@@ -17,11 +17,11 @@
   "link": {
     "label": "link",
     "default": "https://github.com/andrewmuhn/cooks-companion",
-    "group": "variation"
+    "group": "util"
   },
-  "alt": {
-    "label": "alt",
-    "default": "this is an image link",
-    "group": "variation"
+  "name": {
+    "label": "Name",
+    "default": "Cooks Companion",
+    "group": "Content"
   }
 }

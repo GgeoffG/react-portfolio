@@ -1,0 +1,36 @@
+{
+  "works": {
+    "label": "works",
+    "default": [
+      {
+        "items": [
+          {
+            "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+            "main": true,
+            "link": "https://ggeoffg.github.io/challenge-1/",
+            "name": "Cooks Companion"
+          },
+          {
+            "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+            "main": false,
+            "link": "https://ggeoffg.github.io/challenge-1/",
+            "name": "Refactor"
+          },
+          {
+            "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+            "main": false,
+            "link": "https://ggeoffg.github.io/challenge-1/",
+            "name": "Tech Blog"
+          },
+          {
+            "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+            "main": false,
+            "link": "https://ggeoffg.github.io/challenge-1/",
+            "name": "Project 3"
+          }
+        ]
+      }
+    ],
+    "group": "content"
+  }
+}
