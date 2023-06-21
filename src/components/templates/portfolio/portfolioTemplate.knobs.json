@@ -1,0 +1,71 @@
+{
+  "header": {
+    "default": {
+      "menus": [
+        {
+          "items": [
+            { "title": "Home", "url": "/home" },
+            { "title": "About", "url": "/about" },
+            { "title": "Projects", "url": "/projects" },
+            { "title": "Contacts", "url": "/contacts" }
+          ]
+        }
+      ]
+    },
+    "label": "Header content",
+    "group": "Global"
+  },
+  "footer": {
+    "default": {
+      "menus": [
+        {
+          "title": "Navigate",
+          "items": [
+            { "title": "Home", "url": "/home" },
+            { "title": "About", "url": "/about" },
+            { "title": "Projects", "url": "/projects" },
+            { "title": "Contacts", "url": "/contacts" }
+          ]
+        }
+      ]
+    },
+    "label": "Footer content",
+    "group": "Global"
+  },
+  "display": {
+    "default": {
+      "works": [
+        {
+          "items": [
+            {
+              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "main": true,
+              "link": "https://ggeoffg.github.io/challenge-1/",
+              "name": "Cooks Companion"
+            },
+            {
+              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "main": false,
+              "link": "https://ggeoffg.github.io/challenge-1/",
+              "name": "Refactor"
+            },
+            {
+              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "main": false,
+              "link": "https://ggeoffg.github.io/challenge-1/",
+              "name": "Tech Blog"
+            },
+            {
+              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "main": false,
+              "link": "https://ggeoffg.github.io/challenge-1/",
+              "name": "Project 3"
+            }
+          ]
+        }
+      ],
+      "label": "works content",
+      "group": "content"
+    }
+  }
+}

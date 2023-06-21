@@ -21,6 +21,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
+  background-color: var(--oyster);
 }
 
 .works_div{
