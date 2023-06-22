@@ -7,9 +7,9 @@ const { image, main, link, name } = knobData;
 export const baseBanner = () => {
   return (
     <Banner
-      image={image.default}
+      image={text(image.label, image.default, image.group)}
       main={select(main.label, main.options, main.default, main.group)}
-      link={link.default}
+      link={text(link.label, link.default, link.group)}
       name={text(name.label, name.default, name.group)}
       // alt={alt.default}
     />

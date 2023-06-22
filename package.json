@@ -4,6 +4,7 @@
   "description": "## Your Task",
   "main": "index.js",
   "dependencies": {
+    "bootstrap": "^5.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",

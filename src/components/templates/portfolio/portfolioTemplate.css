@@ -7,4 +7,5 @@
 
 .page_wrapper {
   background-color: var(--lake);
+  display: flex;
 }

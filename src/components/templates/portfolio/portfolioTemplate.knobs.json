@@ -38,7 +38,7 @@
         {
           "items": [
             {
-              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "image": "https://github.com/andrewmuhn/cooks-companion/blob/main/public/images/spaghetti-1932466_960_720.jpg?raw=true",
               "main": true,
               "link": "https://ggeoffg.github.io/challenge-1/",
               "name": "Cooks Companion"
@@ -50,13 +50,13 @@
               "name": "Refactor"
             },
             {
-              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaCUyMGJsb2d8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
               "main": false,
               "link": "https://ggeoffg.github.io/challenge-1/",
               "name": "Tech Blog"
             },
             {
-              "image": "https://github.com/GgeoffG/My-Portfolio/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true",
+              "image": "https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29taW5nJTIwc29vbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
               "main": false,
               "link": "https://ggeoffg.github.io/challenge-1/",
               "name": "Project 3"
