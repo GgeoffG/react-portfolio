@@ -1,0 +1,15 @@
+{
+  "label": {
+    "label": "Input Label",
+    "default": "Email",
+    "group": "Type"
+  },
+  "type": {
+    "label": "input type",
+    "default": "text",
+    "group": "Type"
+  },
+  "name": "Name",
+  "default": "Email",
+  "group": "Type"
+}
