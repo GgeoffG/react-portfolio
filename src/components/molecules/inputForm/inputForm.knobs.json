@@ -1,15 +1,11 @@
 {
-  "label": {
-    "label": "Input Label",
-    "default": "Email",
-    "group": "Type"
-  },
-  "type": {
-    "label": "input type",
-    "default": "text",
-    "group": "Type"
-  },
-  "name": "Name",
-  "default": "Email",
-  "group": "Type"
+  "fields": {
+    "label": "Fields",
+    "default": [
+      { "type": "text", "name": "Name", "label": "Name", "message": false },
+      { "type": "text", "name": "Email", "label": "Email", "message": false },
+      { "type": "text", "name": "Email", "label": "Email", "message": true }
+    ],
+    "group": "Fields"
+  }
 }

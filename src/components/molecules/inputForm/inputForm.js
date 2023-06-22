@@ -1,40 +1,33 @@
 import React from "react";
-import { bool, string } from "prop-types";
+import { bool, string, arrayOf, shape } from "prop-types";
+import Input from "../../atoms/input/input";
 import "bootstrap/dist/css/bootstrap.css";
-import "./input.css";
+import "./inputForm.css";
 
-export const Input = ({ label, type, name, message }) => {
+export const InputForm = ({ fields }) => {
   return (
     <>
-      <label for={label}>{label}</label>:
-      {!message ? (
-        <input
-          className={["form-input"].join(" ")}
-          type={type}
-          name={name}
-          placeholder={label}
-        ></input>
-      ) : (
-        <textarea
-          className={["form-input"].join(" ")}
-          type={type}
-          name={name}
-          placeholder={label}
-        ></textarea>
-      )}
+      {fields.map((data, index) => (
+        <Input
+          key={index}
+          type={fields.type}
+          name={fields.name}
+          label={fields.label}
+          message={fields.message}
+        />
+      ))}
+      <button className="button-primary">Submit</button>
     </>
   );
 };
 
 Input.propTypes = {
-  lable: string,
-  type: string.isRequired,
-  name: string,
-  message: bool,
-};
-
-Input.defaultProps = {
-  lable: "Email",
-  type: "text",
-  name: "Email",
+  fields: arrayOf(
+    shape({
+      name: string,
+      label: string,
+      message: bool,
+      type: string.isRequired,
+    })
+  ),
 };

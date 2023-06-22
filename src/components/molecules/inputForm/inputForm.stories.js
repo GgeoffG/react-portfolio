@@ -1,32 +1,17 @@
 import React from "react";
-import { withKnobs, text } from "@storybook/addon-knobs";
-import knobData from "./input.knobs.json";
-import { Input } from "./input";
-const { label, name, type } = knobData;
+import { withKnobs, text, array } from "@storybook/addon-knobs";
+import knobData from "./inputForm.knobs.json";
+import { InputForm } from "./inputForm";
+const { fields } = knobData;
 
-export const basicInput = () => {
+export const basicInputForm = () => {
   return (
-    <Input
-      label={text(label.label, label.default, label.group)}
-      name={text(name.label, name.default, name.group)}
-      type={text(type.label, type.default, type.group)}
-    />
-  );
-};
-
-export const messageInput = () => {
-  return (
-    <Input
-      label={text(label.label, "message", label.group)}
-      name={text(name.label, "message", name.group)}
-      type={text(type.label, type.default, type.group)}
-      message={true}
-    />
+    <InputForm fields={array(fields.label, fields.default, fields.group)} />
   );
 };
 
 export default {
-  title: "Atoms/Input",
-  component: Input,
+  title: "Molecules/InputForm",
+  component: InputForm,
   tags: ["autodocs"],
 };

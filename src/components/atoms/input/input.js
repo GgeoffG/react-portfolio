@@ -3,7 +3,7 @@ import { bool, string } from "prop-types";
 import "bootstrap/dist/css/bootstrap.css";
 import "./input.css";
 
-export const Input = ({ label, type, name, message }) => {
+const Input = ({ label, type, name, message }) => {
   return (
     <>
       <label for={label}>{label}</label>:
@@ -38,3 +38,5 @@ Input.defaultProps = {
   type: "text",
   name: "Email",
 };
+
+export default Input;
