@@ -10,10 +10,10 @@ export const InputForm = ({ fields }) => {
       {fields.map((data, index) => (
         <Input
           key={index}
-          type={fields.type}
-          name={fields.name}
-          label={fields.label}
-          message={fields.message}
+          type={data.type}
+          name={data.name}
+          label={data.label}
+          message={data.message}
         />
       ))}
       <button className="button-primary">Submit</button>
@@ -21,7 +21,7 @@ export const InputForm = ({ fields }) => {
   );
 };
 
-Input.propTypes = {
+InputForm.propTypes = {
   fields: arrayOf(
     shape({
       name: string,
